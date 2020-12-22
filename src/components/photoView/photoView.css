@@ -1,0 +1,16 @@
+.photoContainer {
+   width: 500px;
+   height: 310px;
+}
+
+.zoomedImg {
+   width: 100%;
+   height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+   .photoContainer {
+      width: 95vw;
+      height: 65vw;
+   }
+}
